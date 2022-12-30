@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <audio src="sounds/fastheal.mp3" class="fastHeal"></audio>
+  <audio src="sounds/fastpunch.mp3" class="fastPunch"></audio>
+  <audio src="sounds/quickheal.mp3" class="quickHeal"></audio>
+  <audio src="sounds/quickhit.mp3" class="quickHit"></audio>
+  <div class="body">
+    <p class="title">The solution for the Fighting Game</p>
+    <div class="container">
+      <div class="fighterContainer"><!--first fighter container-->
+        <div class="fighterImgContainer">
+          <img src="https://giffiles.alphacoders.com/131/13192.gif" alt="" class="fighterImg">
+        </div>
+        <button class="attack">Q: Attak</button>
+        <button id="heal" class="heal">A: Heal</button>
+        <h1 class="health">100</h1>
+      </div>
+      <div class="simulationBox">
+        <button class="simulation">Run Simulation</button>
+      </div>
+      <div class="fighterContainer"><!--second fighter container-->
+        <div class="fighterImgContainer2">
+          <img src="https://25.media.tumblr.com/657fa62b0a741ee65788d36ecbc30197/tumblr_mf8aqbg1iV1ruetfho1_500.gif"
+            class="fighterImg">
+        </div>
+        <button class="attack2">P: Attak</button>
+        <button  class="heal2">L: Heal</button>
+        <h1 class="health2">100</h1>
+      </div>
+    </div>
+    <h1 class="result"></h1>
+    <button class="reset">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

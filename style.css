@@ -1,0 +1,56 @@
+.body {
+  background: 'red';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 98vh;
+}
+
+#result {
+  background: 'blue';
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fighterContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fighterImgContainer {
+  width: 140px;
+}
+
+.fighterImgContainer2 {
+  width: 193px;
+}
+
+.fighterImg {
+  width: 100%;
+}
+
+.simulationBox {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+.attack,
+.heal,
+.attack2,
+.heal2 {
+  margin: 10px;
+}
+
+.health,
+.health2,
+.result{
+  font-size: 50px;
+}
